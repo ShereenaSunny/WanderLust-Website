@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>WanderLust</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link rel="stylesheet" href="css/bootstrap.css">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="public/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <div id="topbar" class="d-flex align-items-center fixed-top">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-phone d-flex align-items-center"><span>9876543210</span></i>
+        
+      </div>
+
+      <div class="languages d-none d-md-flex align-items-center">
+        <ul>
+          <i class="bi bi-clock d-flex align-items-center ms-4"><span> Mon-Sat: 11AM - 8PM</span></i>
+        
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-cente">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+
+      <h1 class="logo me-auto me-lg-0"><a href="index.html">Wanderlust</a></h1>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#homestays">Homestays</a></li>
+          <li><a class="nav-link scrollto" href="#activities">Activities</a></li>
+		  <li><a class="nav-link scrollto" href="#hotels">Hotels</a></li>
+          <li class="dropdown"><a href="#"><span>Packages</span> <i class="bi bi-chevron-down"></i></a>
+		  <ul>
+			<li><a href="Packages.html#btrip">Business trips</a></li>			
+			<li><a href="Packages.html#wtrip" >Weekend trips</a></li>
+			<li><a href="Packages.html#ftrip" >Family trips</a></li>
+			<li><a href="Packages.html#ytrip" >Youth trips</a></li>
+			 </ul>
+			</li> 
+			
+			<script>
+function myFunction() {
+  var elmnt = document.getElementById("pack");
+  elmnt.scrollIntoView();
+}
+</script>
+
+          <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+          <li class="dropdown"><a href="#"><span>Destinations</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="north-america">North America</a></li>
+              <li><a href="south-america">South America</a></li>
+              <li><a href="europe">Europe</a></li>
+              <li><a href="asia">Asia</a></li>
+              <li><a href="africa">Africa</a></li>
+			        <li><a href="australia">Australia</a></li>
+            </ul>
+          </li>
+        
+        <i class="bi bi-list mobile-nav-toggle"></i>
+		 <li class="dropdown"><a href="#"><span>User Profile</span> <i class="bi bi-chevron-down"></i></a>
+       <ul>
+        <li><a href="travelLogin\views\reg1.html">Sign Up</a></li>
+        <li><a href="travelLogin\views\log1.html">Login</a></li></ul></li>
+      </nav><!-- .navbar -->
+     
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
+      <div class="row"><img src="assets/img/hero.png">
+        <div class="col-lg-8">
+          <h1>Let's <span>Wander</span></h1>
+          <h2>The world is a book, and those who do not travel read only one page</h2>
+
+          <div class="btns">
+            <a href="#cities" class="btn-menu animated fadeInUp scrollto">Top Cities</a>
+         
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
+            <div class="about-img">
+              <img src="assets/img/victoria.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>About Us!</h3>
+            <p class="fst-italic">
+              Best cities,hotels,homestays and activities suggested under one umbrella, so that you can make the best out of it!
+            </p>
+			<div class="abt-content">
+            <ul>
+              <li><i class="bi bi-check-circle"></i> Top cities per continent</li>
+              <li><i class="bi bi-check-circle"></i> List of hotels and homestays.</li>
+              <li><i class="bi bi-check-circle"></i> Amazing activities you need to try</li>
+            </ul></div>
+            <p>
+			 Through our exceptionally curated occasion bundles, we need to take you on an adventure where you personally enjoy with the stunning magnificence of continents. We need you to observe sensational scenes that are a long ways past your creative ability.The powerful inclination of voyagers to travel more nowadays is something that keeps us inspired to satisfy your vacation necessities. Our vision to give you a consistent occasion encounter makes us one of the main visit administrators in the regularly extending travel industry.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Homestays Section ======= -->
+    <section id="homestays" class="homestays">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Homestays</h2>
+          <p>A place that feels homey!</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Beach Side</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Boho Style</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Mountaneous</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Minimalistic</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">A bit extra</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-9 mt-4 mt-lg-0">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-1">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Seychelles</h3>
+                    <p class="fst-italic"><strong>If you love beaches,you just can't deny this homestay</strong></p>
+                    <p>Waking up looking at the sunrise and  watching the sunset with your loved one has to be best part of every trip. Beach homestays let you experience all that at your own comfort. Taking a dip in the ocean whenever you want,walking down in sand and what not</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+				  <div class="box">
+                    <img src="assets/img/beachhouse.png" alt="" class="img-fluid">
+                  </div>
+				  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-2">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Bali</h3>
+                    <p class="fst-italic"><strong>Includes Having plants and ethnic stuff around you </strong></p>
+                    <p>Many people love traditional stuff of a certain place displayed in houses as it gives a different feel altoghether.It can include amazing cultural carpets,pots furniture in the house.And this homestay is perfect for that! So what are you waiting for?</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+				  <div class="box">
+                    <img src="assets/img/boho.jpg" alt="" class="img-fluid">
+                  </div>
+				   </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-3">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Amsterdam</h3>
+                    <p class="fst-italic"><strong>A breathtaking vieew from your windows as you see the valley down below</strong></p>
+                    <p>Living an the mountains just gives you a descending view of everything down below including beautiful houses, lakes,valleys,sunets,sunrises etc. An amazing experience you can never ever forget in you lives.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+				  <div class="box">
+                    <img src="assets/img/mountainhome.png" alt="" class="img-fluid">
+                  </div>
+				  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-4">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Greece</h3>
+                    <p class="fst-italic"><strong>A nice clean minimalistic approach is something modern people look for these days.</strong></p>
+                    <p>An aesthetically pleasing is mostly clean white and simple. Nowadays tourists prefer an appleaing locaton next to an attractive spot with minimal features and something that gives them the most cozy feeling ever !!</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+				  <div class="box">
+                    <img src="assets/img/mini.jpg" alt="" class="img-fluid">
+                  </div>
+				  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-5">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>New York</h3>
+                    <p class="fst-italic">Experience high celing homestays .</p>
+                    <p>If you love having swimming pools,hot water tub around your home stay and anything that is a bit extra then this is the perfect homestay for you to have spend some quality time with your family or loved ones.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+				  <div class="box">
+                    <img src="assets/img/lux.jpg" alt="" class="img-fluid">
+                  </div>
+				   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Homestays Section -->
+
+    <!-- ======= Activities Section ======= -->
+    <section id="activities" class="events">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Activities</h2>
+          <p>Things you must try</p>
+        </div>
+
+        <div class="events-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/surf.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Surfing</h3>
+                  
+                  <p class="fst-italic"><strong>
+                   Miami is famous for it's surfing activities,so if you are at miami you need to try this for sure!
+                  </p></strong>
+                  <p>
+                    Miami’s South Beach is iconic for barrels, bikinis, and bookending a surf session with global cuisine and never-ending nightlife. </p>
+					<p>This oceanside city might be best known for warm water, eye-popping colors and people watching, but it’s also one of the few places benefiting from the north-east swell along Florida’s coastline. South Beach, specifically at Penrod Park, is the main destination for Miami surfing, where local surfing instructors can show you additional groundswells at coastal gems at 21st, 14th and 96th streets. Ride the best waves against the setting sun and dive into the magical universe of surfing in Miami Beach!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/disney.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Disneyland</h3>
+               
+                  <p class="fst-italic"><strong>
+                    If you are a true Disney fan, this would be heaven on earth for you!
+                  </p></strong>
+                  
+                  <p>The Walt Disney World Resort, also called Walt Disney World and Disney World, is an entertainment resort complex in Bay Lake and Lake Buena Vista, Florida, in the United States, near the cities of Orlando and Kissimmee</p>
+                    <p>"Walt Disney World Resort is a vacation wonderland that includes 4 theme parks, 2 water parks and over 20 Resort hotels—plus world-class shopping, dining, entertainment, recreation, sports and much, much more. Visit an enchanted kingdom, explore the world of today and tomorrow, star in a Hollywood movie and venture into exotic realm filled with amazing animals. </p>
+					<p>Find out why this really is the place where dreams come true!"
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/desert.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Desert Safari</h3>
+                  
+                  <p class="fst-italic"><strong>
+                    Dubai is known for it's desert safaris, so if you are visting dubai this needs to be in your bucket list
+                  </p></strong>
+                  
+                    The cool morning temperatures and the first ray of the sun on the Dubai deserts make a Morning Safari in this city a marvelous experience. This is amongst those desert safari tours in Dubai which have a refreshing and thrilling experience as it begins just at the break of dawn. All desert activities like quad bikes, hot air balloon, wildlife and camel rides are available options during a morning safari as well.</p>
+<p>This safari shall surely register as one of the most beautiful moments of your life owing to the desert's morning beauty combined with thrilling activities!</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Activities Section -->
+	
+	<!-- Top Cities -->
+	
+	<section id="cities" class="cities">
+
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Top Cities</h2>
+          <p>Places you defintely need to visit !</p>
+        </div>
+      </div>
+		<div class="row">
+
+               <div class="col-lg-4 col-md-6">
+                        <div class="city" data-aos="zoom-in" data-aos-delay="100">
+						    <a href="assets/img/dubai1.jpg" class="city-lightbox" data-gall="city-item">
+							<img src="assets/img/dubai1.jpg" alt="" class="w-75" "img-fluid"></a>
+							<div class="city-info">
+							<div class="city-info-content">
+								<h4>DUBAI</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+                        <div class="city" data-aos="zoom-in" data-aos-delay="100">
+							<a href="assets/img/mexico1.jpg" class="city-lightbox" data-gall="city-item">
+							<img src="assets/img/mexico1.jpg" alt="" class="w-75" "img-fluid"></a>
+							<div class="city-info">
+							<div class="city-info-content">
+								<h4>GUANAJUATO</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+                        <div class="city" data-aos="zoom-in" data-aos-delay="100">
+							<a href="assets/img/Paris.jfif" class="city-lightbox" data-gall="city-item">
+							<img src="assets/img/Paris.jfif" alt="" class="w-75" "img-fluid"></a>
+							<div class="city-info">
+							<div class="city-info-content">
+								<h4>PARIS</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+                        <div class="city" data-aos="zoom-in" data-aos-delay="100">
+							<a href="assets/img/nyc1.jpg" class="city-lightbox" data-gall="city-item">
+							<img src="assets/img/nyc1.jpg" alt="" class="w-75" "img-fluid"></a>
+							<div class="city-info">
+							<div class="city-info-content">
+								<h4>NEW YORK</h4>
+							</div>
+						</div>
+					</div>
+				
+					<div class="col-lg-4 col-md-6">
+                        <div class="city" data-aos="zoom-in" data-aos-delay="100">
+							<a href="assets/img/Tokyo.png" class="city-lightbox" data-gall="city-item">
+							<img src="assets/img/Tokyo.png" alt="" class="w-75" "img-fluid"></a>
+							<div class="city-info">
+							<div class="city-info-content">
+								<h4>Tokyo</h4>
+						</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+                        <div class="city" data-aos="zoom-in" data-aos-delay="100">
+							<a href="assets/img/Amsterdam.jfif" class="city-lightbox" data-gall="city-item">
+							<img src="assets/img/Amsterdam.jfif" alt="" class="w-75" "img-fluid"></a>
+							<div class="city-info">
+							<div class="city-info-content">
+								<h4>AMSTERDAM</h4>
+							</div>
+						</div>
+					</div>
+				<div class="col-lg-4 col-md-6">
+                        <div class="city" data-aos="zoom-in" data-aos-delay="100">
+							<a href="assets/img/madrid1.jpg" class="cities-lightbox" data-gall="cities-item">
+							<img src="assets/img/madrid1.jpg" alt="" class="w-75" "img-fluid"></a>
+							<div class="city-info">
+							<div class="city-info-content">
+								<h4>MADRID</h4>
+                <a href="south-america.html#madrid"></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+					<div class="city" data-aos="zoom-in" data-aos-delay="100">
+							<a href="assets/img/l1.jpg" class="cities-lightbox" data-gall="cities-item">
+							<img src="assets/img/l1.jpg" alt="" class="w-75" "img-fluid"></a>
+							<div class="city-info">
+							<div class="city-info-content">
+								<h4>LADAKH</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+                        <div class="city" data-aos="zoom-in" data-aos-delay="100">
+							<a href="assets/img/cape.jpg" class="cities-lightbox" data-gall="cities-item">
+							<img src="assets/img/cape.jpg" alt="" class="w-75" "img-fluid"></a>
+							<div class="city-info">
+							<div class="city-info-content">
+								<h4>CAPE TOWN</h4>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+
+    <!-- ======= Hotels Section ======= -->
+    <section id="hotels" class="hotels">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Hotels</h2>
+          <p>Try these delicious delicacies</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="zoom-in" data-aos-delay="100">
+              <img src="assets/img/balihotel1.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Bali, Indonesia</h4>            
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="zoom-in" data-aos-delay="200">
+              <img src="assets/img/continents/dubaihotel.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Dubai, UAE</h4>               
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="zoom-in" data-aos-delay="300">
+              <img src="assets/img/continents/seychelleshotel.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Seychelles Island</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+		
+		<div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="zoom-in" data-aos-delay="100">
+              <img src="assets/img/alhotel2.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Alapuzzha, Kerala</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="zoom-in" data-aos-delay="200">
+              <img src="assets/img/nychotel.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>New York, United States</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="zoom-in" data-aos-delay="300">
+              <img src="assets/img/manalihotel.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Manali, Himachal Pradesh</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Hotels Section -->
+	
+	 <!-- ======= Gallery Section ======= -->
+   
+   <section id="gallery" class="gallery">
+
+      <div class="container" data-aos="fade-up">
+	  
+        <div class="section-title">
+          <h2>Gallery</h2>
+          <p>Some travelling inspirations for you</p>
+        </div>
+      </div>
+
+      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-0">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/col.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/col.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/water1.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/water1.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/ice.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/ice.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/brkfst.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/brkfst.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/plane.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/plane.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/ny.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/ny.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/china.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/china.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/san.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/san.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Gallery Section -->
+	
+	
+    <!-- ======= Reveiws Section ======= -->
+	
+	 <section id="reviews" class="why-us">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Customer Reviews</h2>
+          <p>How has wanderlust helped them</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4">
+            <div class="box" data-aos="zoom-in" data-aos-delay="100">
+              <span>01</span>
+              <h4>Alia Khan</h4>
+              <p>The best thing about this site is that it suggests you not only places but also activities and other fun stuff with it</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box" data-aos="zoom-in" data-aos-delay="200">
+              <span>02</span>
+              <h4>Natasha D'souza</h4>
+              <p>Homestays and amazing package recommendations has to be my favourite part</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box" data-aos="zoom-in" data-aos-delay="300">
+              <span>03</span>
+              <h4>Ankit Mishra</h4>
+              <p>The list of cities that they have shown is wholesome with  amazing customer  </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Reviews Section -->
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>Restaurantly</h3>
+              <p>
+                A101 MG Street<br>
+                Mumbai,MH 400001<br><br>
+                <strong>Phone:</strong> +91 9876543210<br>
+                <strong>Email:</strong> info@wanderlust.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+             <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#cities">Top Cities</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Destinations</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#gallery">Gallery</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#reviews">Reviews</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">About</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#hotels">Hotels</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#homestays">Homestays</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#activities">Activities</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#Paclages.html">Packages</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <img src="assets/img/wanderlust.png">
+       
+           </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Wanderlust</span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

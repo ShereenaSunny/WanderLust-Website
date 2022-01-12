@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>WanderLust</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link rel="stylesheet" href="css/bootstrap.css">
+
+  <!-- Favicons -->
+  <link href="favicon.png" rel="icon">
+  <link href="apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="vendor/aos/aos.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body id="wander" onload="myFunction()">
+
+
+
+
+
+  <!-- ======= Top Bar ======= -->
+  <div id="topbar" class="d-flex align-items-center fixed-top">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-phone d-flex align-items-center"><span>9876543210</span></i>
+        
+      </div>
+
+      <div class="languages d-none d-md-flex align-items-center">
+        <ul>
+          <i class="bi bi-clock d-flex align-items-center ms-4"><span> Mon-Sat: 11AM - 8PM</span></i>
+        
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+
+      <h1 class="logo me-auto me-lg-0"><a href="home.ejs">Wanderlust</a></h1>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="/">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#homestays">Homestays</a></li>
+          <li><a class="nav-link scrollto" href="#activities">Activities</a></li>
+		  <li><a class="nav-link scrollto" href="#hotels">Hotels</a></li>
+		 
+          <li class="dropdown"  ><a href="#"><span>Packages</span> <i class="bi bi-chevron-down"></i></a>
+		  <ul  >
+			<li><a href="#btrip">Business trips</a></li>
+			<li><a href="#wtrip">Weekend trips</a></li>
+			<li><a href="#ftrip">Family trips</a></li>
+			<li><a href="#ytrip">Youth trips</a></li>
+			 </ul>
+			</li>
+<script>
+function myFunction() {
+  var elmnt = document.getElementById("pack");
+  elmnt.scrollIntoView();
+}
+</script>			
+          <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+          <li class="dropdown"><a href="#"><span>Destinations</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="north-america">North America</a></li>
+              <li><a href="south-america">South America</a></li>
+              <li><a href="europe">Europe</a></li>
+              <li><a href="asia">Asia</a></li>
+              <li><a href="africa">Africa</a></li>
+			        <li><a href="australia">Australia</a></li>
+            </ul>
+          </li>
+        
+        <i class="bi bi-list mobile-nav-toggle"></i>
+        <li class="dropdown"><a href="#"><span>User Profile</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+                 <li><a href="/register">Sign Up</a></li>
+                 <li><a href="/login">Login</a></li></ul></li>
+         </nav><!-- .navbar -->
+        
+       </div>
+     </header><!-- End Header -->
+  
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
+      <div class="row">
+        <div class="col-lg-8" id="pack">
+          <h1><span>Packages</span></h1>
+          <h2>Combinations of places,you can't stop yourself from going!</h2>
+        </div>
+
+      </div>
+    </div>
+  </section><!-- End Hero -->
+  
+    <!-- ======= Icon Boxes Section ======= -->
+    <section id="icon-boxes" class="icon-boxes">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4 class="title"><a href="">Business Trips</a></h4>
+              <p class="description">A trip that offers a break from the daily office routine. Business get together and meetings can be held in the best business locations</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="">Weekend Trips</a></h4>
+              <p class="description">A getaway from your daily hectic schedule.Freshen up your mind in these 2-3 days.So what are you waiting for?</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4 class="title"><a href="">Family Trips</a></h4>
+              <p class="description">Spend some quality time and have a peaceful trip with your loved ones that is going to be memorable for life.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-layer"></i></div>
+              <h4 class="title"><a href="">Youth Trips</a></h4>
+              <p class="description">Trips with your friends are always enjoyable. It's defintely a mix of adventure, fun,living in that moment and what not</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Icon Boxes Section -->
+	
+	  <section id="btrip">
+	 <section id="trips" class="trips">
+    
+      <div  class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Business Trips</h2>
+          <p>A formal trip for employees and companies</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-4">
+            <div class="box" data-aos="fade-up" data-aos-delay="200">
+              <img src="chicago.png" class="img-fluid" alt="">
+              <h3>Chicago, USA</h3>
+              <p>The city is renowned for its museums, including the Art Institute of Chicago with its noted Impressionist and Post-Impressionist works</p>
+			  <a href="Packages#chicago" class="btn-buy">Hotels</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box" data-aos="fade-up" data-aos-delay="400">
+              <img src="toronto.png" class="img-fluid" alt="">
+              <h3>Toronto, Canada</h3>
+              <p> It has global competitiveness & innovation & quality of life.Popular in financial services,real estate,wholesale & retail trade</p>
+			  <a href="Packages#toronto" class="btn-buy">Hotels</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box" data-aos="fade-up" data-aos-delay="600">
+              <img src="rio.png" class="img-fluid" alt="">
+              <h3>Rio de Janerio, Brazil</h3>
+              <p>This developing city has continued to flourish, positioning itself as a facilitator for foreign investment and international partnerships.</p>
+              <a href="Packages#rio"  class="btn-buy">Hotels</a>
+            </div>
+          </div>
+        </div>
+      </div>
+	 
+    </section><!-- End Values Section -->
+	 </section>
+
+   <section id="chicago">
+   <section id="packtrips" class="packtrips">
+    <div class="container" data-aos="fade-up">
+      <div class="section-title">
+        <h2>Hotels in Chicago</h2>
+      </div>
+    </div>
+   <div class="row portfolio-container">
+
+        <div class="col-lg-4 col-md-6 packtrips-item filter-app">
+          <img id="chicag" src="chicagoh1.png" class="img-fluid" alt="">
+          <div class="packtrips-info">
+          
+            <a href="chicagoh1.png" data-gall="packtripsGallery" class="packtrips-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 packtrips-item filter-web">
+          <img src="chicagoh2.png" class="img-fluid" alt="">
+          <div class="packtrips-info">
+            
+            <a href="chicagoh2.png" data-gall="packtripsGallery" class="packtrips-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 packtrips-item filter-app">
+          <img src="chicagoh3.png" class="img-fluid" alt="">
+          <div class="packtrips-info">
+          
+            <a href="chicagoh3.png" data-gall="packtripsGallery" class="packtrips-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+  </div>
+  </div>
+</section>
+</section>
+			
+<section id="toronto">
+      <section id="packtrips" class="packtrips">
+
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Hotels in Toronto</h2>
+          </div>
+        </div>
+       <div class="row portfolio-container">
+  
+            <div class="col-lg-4 col-md-6 packtrips-item filter-app">
+              <img src="t1.png" class="img-fluid" alt="">
+              <div class="packtrips-info">
+              
+                <a href="t1.png" data-gall="packtripsGallery" class="packtrips-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 packtrips-item filter-web">
+              <img src="t2.png" class="img-fluid" alt="">
+              <div class="packtrips-info">
+                
+                <a href="t2.png" data-gall="packtripsGallery" class="packtrips-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 packtrips-item filter-app">
+              <img src="t3.png" class="img-fluid" alt="">
+              <div class="packtrips-info">
+              
+                <a href="t3.png" data-gall="packtripsGallery" class="packtrips-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+      </div>
+      </div>
+    </section>
+    </section>
+
+		<section id="rio">	
+      <section id="packtrips" class="packtrips">
+
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Hotels in Rio</h2>
+          </div>
+        </div>
+       <div class="row portfolio-container">
+  
+            <div class="col-lg-4 col-md-6 packtrips-item filter-app">
+              <img src="r1.png" class="img-fluid" alt="">
+              <div class="packtrips-info">
+              
+                <a href="r1.png" data-gall="packtripsGallery" class="packtrips-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 packtrips-item filter-web">
+              <img src="r2.png" class="img-fluid" alt="">
+              <div class="packtrips-info">
+                
+                <a href="r2.png" data-gall="packtripsGallery" class="packtrips-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 packtrips-item filter-app">
+              <img src="r3.jpg" class="img-fluid" alt="">
+              <div class="packtrips-info">
+              
+                <a href="r3.jpg" data-gall="packtripsGallery" class="packtrips-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+      </div>
+      </div>
+    </section>
+    </section>
+
+<section id="wtrip">
+<section id="trips"  class="trips">
+<div  >
+      <div  class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2 >Weekend Trips</h2>
+          <p>A place to rejuvanate yourself for a couple of days</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-4">
+            <div class="box" data-aos="fade-up" data-aos-delay="200">
+              <img src="jaipur.png" class="img-fluid" alt="">
+              <h3>Jaipur, Rajasthan</h3>
+              <p>The pink city's best attractions have to be beautiful palaces,deserts,cusines.Right said this city is painted in pink </p>
+              <a href="Packages#jaipur" class="btn-buy">Hotels</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box" data-aos="fade-up" data-aos-delay="400">
+              <img src="ladakh.png" class="img-fluid" alt="">
+              <h3>Ladakh, India</h3>
+              <p>Scenic beauty and breathtaking views leaves everyone mesmerized everytime they visit ladakh. </p>
+              <a href="Packages#ladakh" class="btn-buy">Hotels</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box" data-aos="fade-up" data-aos-delay="600">
+              <img src="char.png" class="img-fluid" alt="">
+              <h3>Hyderabad, Telengana</h3>
+              <p>Mughal culture and mughali dishes are premominent over her and people love to experience all that</p>
+              <a href="Packages#tel" class="btn-buy">Hotels</a>
+            </div>
+          </div>
+        </div>
+      </div>
+	  </div>
+    </section><!-- End Values Section -->
+	</section>
+
+  <section id="jaipur">
+	<section id="packtrips" class="packtrips">
+
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Hotels in Jaipur</h2>
+        </div>
+      </div>
+		 <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 packtrips-item filter-app">
+            <img src="img/jaipur-hotel1.jpg" class="img-fluid" alt="">
+            <div class="packtrips-info">
+           
+              <a href="img/jaipur-hotel1.jpg" data-gall="packtripsGallery" class="packtrips-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 packtrips-item filter-web">
+            <img src="img/jaipur-hotel2.jpg" class="img-fluid" alt="">
+            <div class="packtrips-info">
+             
+              <a href="img/jaipur-hotel2.jpg" data-gall="packtripsGallery" class="packtrips-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 packtrips-item filter-app">
+            <img src="img/jaipur-hotel3.jpg" class="img-fluid" alt="">
+            <div class="packtrips-info">
+              
+              <a href="img/jaipur-hotel3.jpg" data-gall="packtripsGallery" class="packtrips-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+				</div>
+			</div>
+    </section>
+			</section>
+			
+    <section id="ladakh">
+			<section id="packtrips" class="packtrips">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Hotels in Ladakh</h2>
+        </div>
+      </div>
+		 <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 packtrips-item filter-app">
+            <img src="img/ladakh-hotel1.jpg" class="img-fluid" alt="">
+            <div class="packtrips-info">
+       
+              <a href="img/ladakh-hotel1.jpg" data-gall="packtripsGallery" class="packtrips-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 packtrips-item filter-web">
+            <img src="img/ladakh-hotel2.jpg" class="img-fluid" alt="">
+            <div class="packtrips-info">
+              
+              <a href="img/ladakh-hotel2.jpg" data-gall="packtripsGallery" class="packtrips-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 packtrips-item filter-app">
+            <img src="img/ladakh-hotel3.jpg" class="img-fluid" alt="">
+            <div class="packtrips-info">
+             
+              <a href="img/ladakh-hotel3.jpg" data-gall="packtripsGallery" class="packtrips-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+				</div>
+			</div>
+    </section>
+			</section>
+		
+    <section id="tel">
+		<section id="packtrips" class="packtrips">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Hotels in Hyderabad</h2>
+        </div>
+      </div>
+		 <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 packtrips-item filter-app">
+            <img src="img/hyhotel1.jpg" class="img-fluid" alt="">
+            <div class="packtrips-info">
+             
+              <a href="img/hyhotel1.jpg" data-gall="packtripsGallery" class="packtrips-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 packtrips-item filter-web">
+            <img src="img/hyhotel2.jpg" class="img-fluid" alt="">
+            <div class="packtrips-info">
+              
+              <a href="img/hyhotel2.jpg" data-gall="packtripsGallery" class="packtrips-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 packtrips-item filter-app">
+            <img src="img/hyhotel3.jpg" class="img-fluid" alt="">
+            <div class="packtrips-info">
+           
+              <a href="img/hyhotel3.jpg" data-gall="packtripsGallery" class="packtrips-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+				</div>
+			</div>
+    </section>  
+			</section>
+
+    
+<section id="ftrip">
+		 <section id="trips" class="trips">
+
+      <div  class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Family Trips</h2>
+          <p>A place to go with your family and spend some quality time</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-4">
+            <div class="box" data-aos="fade-up" data-aos-delay="200">
+              <img src="asia/greece.jpg" class="img-fluid" alt="">
+              <h3>Santorini, Greece</h3>
+              <p>Stunning Architecture, lovely food and an ancient place that has a lot of history</p>
+			  <a href="Packages#greece" class="btn-buy">Hotels</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box" data-aos="fade-up" data-aos-delay="400">
+              <img src="asia/london.jpg" class="img-fluid" alt="">
+              <h3>London, United Kingdom</h3>
+              <p>Known for the famous London Bridge and the most famous British food</p>
+			  <a href="Packages#london" class="btn-buy">Hotels</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box" data-aos="fade-up" data-aos-delay="600">
+              <img src="asia/tashkent.png" class="img-fluid" alt="">
+              <h3>Tashkent, Uzbekistan</h3>
+              <p>Surrounded by huge ethnic mosques, this city known for mouth watering food</p>
+			  <a href="Packages#tashkent" class="btn-buy">Hotels</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	</section><!-- End Values Section -->
+	
+  <section id="greece">
+  <section id="packtrips" class="packtrips">
+    <div class="container" data-aos="fade-up">
+      <div class="section-title">
+        <h2>Hotels in Santorini</h2>
+      </div>
+    </div>
+   <div class="row portfolio-container">
+
+        <div class="col-lg-4 col-md-6 packtrips-item filter-app">
+          <img src="greecehotel1.jpg" class="img-fluid" alt="">
+          <div class="packtrips-info">
+          
+            <a href="greecehotel1.jpg" data-gall="packtripsGallery" class="packtrips-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 packtrips-item filter-web">
+          <img src="greecehotel2.jpg" class="img-fluid" alt="">
+          <div class="packtrips-info">
+            
+            <a href="greecehotel2.jpg" data-gall="packtripsGallery" class="packtrips-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 packtrips-item filter-app">
+          <img src="greecehotel.jpg" class="img-fluid" alt="">
+          <div class="packtrips-info">
+          
+            <a href="greecehotel.jpg" data-gall="packtripsGallery" class="packtrips-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+  </div>
+  </div>
+</section>
+</section>
+		
+<section id="london">
+			<section id="packtrips" class="packtrips">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Hotels in London</h2>
+          </div>
+        </div>
+       <div class="row portfolio-container">
+  
+            <div class="col-lg-4 col-md-6 packtrips-item filter-app">
+              <img src="lonhotel1.jpg" class="img-fluid" alt="">
+              <div class="packtrips-info">
+              
+                <a href="lonhotel1.jpg" data-gall="packtripsGallery" class="packtrips-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 packtrips-item filter-web">
+              <img src="lonhotel2.jpg" class="img-fluid" alt="">
+              <div class="packtrips-info">
+                
+                <a href="lonhotel2.jpg" data-gall="packtripsGallery" class="packtrips-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 packtrips-item filter-app">
+              <img src="lonhotel.jpg" class="img-fluid" alt="">
+              <div class="packtrips-info">
+              
+                <a href="lonhotel.jpg" data-gall="packtripsGallery" class="packtrips-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+      </div>
+      </div>
+    </section>
+  </section>
+			
+  <section id="tashkent">
+      <section id="packtrips" class="packtrips">
+
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Hotels in Tashkent</h2>
+          </div>
+        </div>
+       <div class="row portfolio-container">
+  
+            <div class="col-lg-4 col-md-6 packtrips-item filter-app">
+              <img src="tashhotel.jpg" class="img-fluid" alt="">
+              <div class="packtrips-info">
+              
+                <a href="tashhotel.jpg" data-gall="packtripsGallery" class="packtrips-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 packtrips-item filter-web">
+              <img src="tashhotel2.jpg" class="img-fluid" alt="">
+              <div class="packtrips-info">
+                
+                <a href="tashhotel2.jpg" data-gall="packtripsGallery" class="packtrips-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 packtrips-item filter-app">
+              <img src="tashhotel1.jpg" class="img-fluid" alt="">
+              <div class="packtrips-info">
+              
+                <a href="tashhotel1.jpg" data-gall="packtripsGallery" class="packtrips-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+      </div>
+      </div>
+    </section>
+  </section>	
+			
+		<section id="ytrip">
+			<section id="trips" class="trips">
+
+      <div  class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Youth Trips</h2>
+          <p>Odit est perspiciatis laborum et dicta</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-4">
+            <div class="box" data-aos="fade-up" data-aos-delay="200">
+              <img src="manali.jpg" class="img-fluid" alt="">
+              <h3>Manali</h3>
+              <p>If you want to go see the snow and hills on a budget this is the place for you</p>
+			  <a href="Packages#manali" class="btn-buy">Hotels</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box" data-aos="fade-up" data-aos-delay="400">
+              <img src="panaji.jpg" class="img-fluid" alt="">
+              <h3>Panaji, Goa</h3>
+              <p>Surreal beaches and churches have to be the main tourist attractions of goa.</p>
+			  <a href="Packages.html#panaji" class="btn-buy">Hotels</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box" data-aos="fade-up" data-aos-delay="600">
+              <img src="alapuzha.jpg" class="img-fluid" alt="">
+              <h3>Alapuzha</h3>
+              <p>Known for famous backwaters and boat stays, a visit you just need to experience</p>
+			  <a href="Packages#ala" class="btn-buy">Hotels</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	</section><!-- End Values Section -->
+
+  <section id="manali">
+	<section id="packtrips" class="packtrips">
+			<div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Hotels in Manali</h2>
+        </div>
+      </div>
+		 <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 packtrips-item filter-app">
+            <img src="manalihotel1.jpeg" class="img-fluid" alt="">
+            <div class="packtrips-info">
+            
+              <a href="manalihotel1.jpeg" data-gall="packtripsGallery" class="packtrips-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 packtrips-item filter-web">
+            <img src="manalihotel2.jpeg" class="img-fluid" alt="">
+            <div class="packtrips-info">
+             
+              <a href="manalihotel2.jpeg" data-gall="packtripsGallery" class="packtrips-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 packtrips-item filter-app">
+            <img src="manalihotel.jpg" class="img-fluid" alt="">
+            <div class="packtrips-info">
+              
+              <a href="manalihotel.jpg" data-gall="packtripsGallery" class="packtrips-lightbox preview-link"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+		</div>
+		</div>
+	</section>
+</section>
+	
+<section id="panaji">
+	<section id="packtrips" class="packtrips">
+			<div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Hotels in Panaji</h2>
+        </div>
+      </div>
+		 <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 packtrips-item filter-app">
+            <img src="panhotel1.jpg" class="img-fluid" alt="">
+            <div class="packtrips-info">
+              
+              <a href="panhotel1.jpg" data-gall="packtripsGallery" class="packtrips-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 packtrips-item filter-web">
+            <img src="panhotel2.jpg" class="img-fluid" alt="">
+            <div class="packtrips-info">
+              <
+              <a href="panhotel2.jpg" data-gall="packtripsGallery" class="packtrips-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 packtrips-item filter-app">
+            <img src="panhotel.jpg" class="img-fluid" alt="">
+            <div class="packtrips-info">
+             
+              <a href="panhotel.jpg" data-gall="packtripsGallery" class="packtrips-lightbox preview-link"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+		</div>
+		</div>
+	</section>
+</section>
+			
+<section id="ala">
+			<section id="packtrips" class="packtrips">
+
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Hotels in Alapuzzha</h2>
+        </div>
+      </div>
+		 <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 packtrips-item filter-app">
+            <img src="alhotel1.jpg" class="img-fluid" alt="">
+            <div class="packtrips-info">
+            
+              <a href="alhotel1.jpg" data-gall="packtripsGallery" class="packtrips-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 packtrips-item filter-web">
+            <img src="alhotel2.jpg" class="img-fluid" alt="">
+            <div class="packtrips-info">
+              
+              <a href="alhotel2.jpg" data-gall="packtripsGallery" class="packtrips-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 packtrips-item filter-app">
+            <img src="alhotel.jpg" class="img-fluid" alt="">
+            <div class="packtrips-info">
+            
+              <a href="alhotel.jpg" data-gall="packtripsGallery" class="packtrips-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+		</div>
+		</div>
+	</section>
+</section>
+	
+	  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>Restaurantly</h3>
+              <p>
+                A101 MG Street<br>
+                Mumbai,MH 400001<br><br>
+                <strong>Phone:</strong> +91 9876543210<br>
+                <strong>Email:</strong> info@wanderlust.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="/">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/#cities">Top Cities</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Destinations</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/#gallery">Gallery</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/#reviews">Reviews</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="/#about">About</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/#hotels">Hotels</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/#homestays">Homestays</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/">Activities</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="Packages.ejs">Packages</a></li>
+			  
+            </ul>
+			
+          </div>
+		  <div class="col-lg-3 col-md-6 footer-links">
+           <img src="wanderlust.png">
+			
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Wanderlust</span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="vendor/aos/aos.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="vendor/php-email-form/validate.js"></script>
+  <script src="vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

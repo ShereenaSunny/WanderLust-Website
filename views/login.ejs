@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!---<title> Responsive Registration Form | CodingLab </title>--->
+
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Log in</title>
+     
+     <link rel="stylesheet" href="../css/loginStyle.css"></head>
+
+     <body>
+    
+        <div class="container">
+      
+          <div class="title">Log in</div>
+          <div class="content">
+            <form action="/login" method="POST">
+                <div class="user-details">
+
+                    <div class="input-box">
+                     <span class="details">Username</span>
+                    <input type="text" placeholder="Enter your username" id="username" name="username"></div>
+
+                     <div class="input-box">
+                    <span class="details">Password</span>
+                    <input type="password" id="password" name="password" placeholder="Enter your password"></div>
+   
+                <div class="button">
+                  <center><button><input type="button" value="Log in" onclick="login()" ></button></center>
+            </div>
+
+            <div class="preacc">
+                <h4>Don't have an account? <a href="/register">SignUp</a></h4>
+                <h4>Go Back <a href="/">Home</a></h4>
+</form>
+</div>
+</div>
+
+<script>
+
+  function login(){
+   
+      alert("Login Succssfull !")
+  }
+</script>

@@ -1,0 +1,104 @@
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+	
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+<title>Sign Up</title>
+
+<link rel="stylesheet" href="../css/style1.css"> 
+</head><body>
+    
+    <div class="container">
+
+    <div class="title">Sign Up</div>
+    <div class="content">
+
+        <form action="/register" method="POST">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Username</span>
+                    <input type="text" id="username" name="username" placeholder="Enter your username">
+                    </div>
+
+                    <div class="input-box">
+                        <span class="details">Phone Number</span>
+                            <input type="text" name="phone" id="phone" placeholder="Enter your phone number">
+                        
+                        </div>
+
+                        <div class="input-box">
+                            <span class="details">Password</span>
+                        <input type="password" id="password" name="password" placeholder="Enter your password">
+                            </div>
+
+                        <div class="input-box">
+                            <span class="details">Confirm Password</span>
+                            <input type="password" id="Cpassword" name="Cpassword" placeholder="Confirm your password">
+                       </div>
+                 
+                   
+                <div class="button">
+                    <center><button><input type="button" value="Sign up" onclick="login()" ></button></center>
+              </div>
+
+                    <div class="preacc">
+                        <h4>Already have an account? <a href="/login">login</a></h4>
+                        <h4>Go Back <a href="/">Home</a></h4></div>
+
+</form>
+</div>
+</body>
+
+<script>
+
+    
+  
+function funpass()
+{
+    var name=document.getElementById('username').value;
+    var phone=document.getElementById('phone').value;
+    var pass=document.getElementById('password').value;
+    var pass1=document.getElementById('Cpassword').value; 
+    
+    
+    if(username==""||phone==""||password==""||Cpassword=="")
+        {
+            alert("please fill entire form.");
+            return false;
+        }
+    else if(isNaN(username)==false)
+    {
+            alert("please enter characters only!");
+            return false;
+    }
+    else if(password!=Cpassword1)
+        {
+            alert("password dosent match!");
+            return false;
+        }
+    else if(username.length<=3||username.length>=10)
+        {
+            alert("please enter username more than 3 and upto 10 characters.");
+        }
+    else if(phone.length<10 || phone.length>10)
+        {
+             alert("phone number should be of 10 digits!");
+        }
+    else
+        {
+            alert("successfully registered.");
+            document.location="login";
+            return true;
+            
+        }
+    
+   
+    
+}
+</script>
