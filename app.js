@@ -10,8 +10,8 @@ const express               =  require('express'),
 
 
 
-//Connecting database
-mongoose.connect("mongodb+srv://dbUserCredential:dbUserCredential@cluster0.mbbbv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",{
+//Connecting database and add the link of your connection inside ""
+mongoose.connect("",{
     useNewUrlParser:true,
     useUnifiedTopology:true
 });
